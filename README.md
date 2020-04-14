@@ -20,7 +20,7 @@
 - Actualizaciones constantes 🌐 
 - Soporte técnico especializado ⚙
 - Viralización de ofertas 🚀
-- Oper source 💓
+- Open source 💓
 
 **Importante**: Si no tienes cuenta de reclutador por favor regístrate en el siguiente enlace:
 https://empresas.jobtify.com.mx/crear-cuenta
