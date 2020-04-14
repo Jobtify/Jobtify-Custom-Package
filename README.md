@@ -5,7 +5,7 @@
 #### Requsitos
 - Cuenta como reclutador en [empresas.jobtify.com.mx](https://empresas.jobtify.com.mx/ "empresas.jobtify.com.mx")
 - Contar con clave TOKEN y KEY.
-- Contar con acceso a la API para reclutadores.
+- Contar con acceso a la [API para reclutadores](https://empresas.jobtify.com.mx/planes "API para reclutadores"). 
 - Servidor web Apache 5.6 o Superior.
 - mod_rewrite.
 - Dominio propio.
