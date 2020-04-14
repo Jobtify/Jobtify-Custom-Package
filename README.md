@@ -13,3 +13,11 @@
 
 #### Como funciona:
 ![JOBTIFY API ENTERPRISE](https://img.mailinblue.com/2119930/images/rnb/original/5e94bd0c09a221332918ab91.png "JOBTIFY API ENTERPRISE")
+
+#### Características
+- Sin costo adicional
+- Totalmente personalizado
+- Actualizaciones constantes
+- Soporte técnico especializado
+- Viralización de ofertas
+- Oper source
