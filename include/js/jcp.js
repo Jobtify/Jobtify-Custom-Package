@@ -221,6 +221,7 @@ $(document).ready(function(){
             	$('#entidad').prop('disabled', true);
             },
             success:  function (r){
+            	console.log(r);
                 $('#entidad').prop('disabled', false);
 
                 Object.keys(r).forEach(function( key ) {

@@ -5,7 +5,7 @@
 	use Curl;
 
 	class API{
-		private $url = "https://api.jobtify.com.mx/v1/";
+		private $url = __ENDPOINT__; 
 		private $API;
 		private $KEY;
 		public $TOKEN;
@@ -40,7 +40,6 @@
 			));
 
 			$response = json_decode(curl_exec($curl));
-
 			curl_close($curl);
 
 			if(isset($response->data->TOKEN)){

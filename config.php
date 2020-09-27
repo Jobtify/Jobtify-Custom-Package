@@ -11,7 +11,9 @@
 
 	define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'].'/');
 	define('__DR__', ROOT_PATH.'jobtify-custom-package/');
-	define('__PATH__', 'http://'.$_SERVER['SERVER_NAME'].'/jobtify-custom-package'); 
+	define('__PATH__', 'http://'.$_SERVER['SERVER_NAME'].'/jobtify-custom-package');
+
+
 
 	/**
 	 * Define el nombre de la empresa
@@ -22,13 +24,17 @@
 	 */
 	define('__FAVICON__', "https://cdn.jobtify.com.mx/jobtify.com.mx/images/ico/icono.ico");
 	/**
+	 * Define el endpoint de la API a consultar
+	 */
+	define('__ENDPOINT__', "https://api.jobtify.com.mx/v1/");
+	/**
 	 * Define el token de acceo a la API (Obligatorio)
 	 */
-	define('__TOKEN__', 'XXXXXXXXXXXXXXXXXXXXXXX');
+	define('__TOKEN__', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 	/**
 	 * Define la clave de acceso a la API (Obligatorio)
 	 */
-	define('__KEY__', 'XXXX');
+	define('__KEY__', 'xxxxxxxxxxxxxxxxxxxxxxxxxxx');
 	/**
 	 * Define el menú del sitio web (Opcional). Si el menú enlaza a una página nueva se deberá 
 	 * definir la página en el siguiente bloque.
