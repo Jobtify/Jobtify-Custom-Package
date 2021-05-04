@@ -71,7 +71,7 @@
 	 * Define el framework que se va ha utilizar (Requerido) 
 	   Por Default viene predefinido con bootstrap4 pero se pueden utilizar los siguientes -> bootstrap5, foundation6, pure css, uikit.
 	*/
-	define('__FRAMEWORKS__', 'foundation6');
+	define('__FRAMEWORKS__', 'bootstrap4');
 
 	/**
 	 * Define las meta tags del sitio (Opcional)
@@ -84,8 +84,4 @@
 				array("name" => "robots", "content"=>"index")
 			])
 		);
-
-	
-	//composer remove twbs/bootstrap:5.0.0-beta3
-
  ?>
