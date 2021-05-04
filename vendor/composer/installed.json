@@ -1,251 +1,265 @@
-[
-    {
-        "name": "components/jquery",
-        "version": "3.4.1",
-        "version_normalized": "3.4.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/components/jquery.git",
-            "reference": "901828b7968b18319e377dc23d466f28426ee083"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/components/jquery/zipball/901828b7968b18319e377dc23d466f28426ee083",
-            "reference": "901828b7968b18319e377dc23d466f28426ee083",
-            "shasum": ""
-        },
-        "time": "2019-10-23T05:15:13+00:00",
-        "type": "component",
-        "extra": {
-            "component": {
-                "scripts": [
-                    "jquery.js"
-                ],
-                "files": [
-                    "jquery.min.js",
-                    "jquery.min.map",
-                    "jquery.slim.js",
-                    "jquery.slim.min.js",
-                    "jquery.slim.min.map"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "JS Foundation and other contributors"
-            }
-        ],
-        "description": "jQuery JavaScript Library",
-        "homepage": "http://jquery.com"
-    },
-    {
-        "name": "curl/curl",
-        "version": "2.2.0",
-        "version_normalized": "2.2.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/php-mod/curl.git",
-            "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/php-mod/curl/zipball/d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
-            "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
-            "shasum": ""
-        },
-        "require": {
-            "ext-curl": "*",
-            "php": "^5.6 | ^7.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^5.7",
-            "squizlabs/php_codesniffer": "~2.1"
-        },
-        "time": "2018-12-04T19:47:03+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Curl": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Hassan Amouhzi",
-                "email": "hassan@anezi.net",
-                "homepage": "http://hassan.amouhzi.com"
+{
+    "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.4.1",
+            "version_normalized": "3.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "901828b7968b18319e377dc23d466f28426ee083"
             },
-            {
-                "name": "php-curl-class",
-                "homepage": "https://github.com/php-curl-class"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/901828b7968b18319e377dc23d466f28426ee083",
+                "reference": "901828b7968b18319e377dc23d466f28426ee083",
+                "shasum": ""
             },
-            {
-                "name": "user52",
-                "homepage": "https://github.com/user52"
-            }
-        ],
-        "description": "cURL class for PHP",
-        "homepage": "https://github.com/php-mod/curl",
-        "keywords": [
-            "curl",
-            "dot"
-        ]
-    },
-    {
-        "name": "izniburak/router",
-        "version": "v1.5.2",
-        "version_normalized": "1.5.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/izniburak/php-router.git",
-            "reference": "534af6f77a05083760c5ff8385ca81218b5c5855"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/izniburak/php-router/zipball/534af6f77a05083760c5ff8385ca81218b5c5855",
-            "reference": "534af6f77a05083760c5ff8385ca81218b5c5855",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.0"
-        },
-        "require-dev": {
-            "guzzlehttp/guzzle": "^5.3",
-            "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.0"
-        },
-        "time": "2020-01-29T21:28:36+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Buki\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "İzni Burak Demirtaş",
-                "email": "info@burakdemirtas.org",
-                "homepage": "http://burakdemirtas.org"
-            }
-        ],
-        "description": "simple router class for php",
-        "homepage": "https://github.com/izniburak/php-router",
-        "keywords": [
-            "Simple",
-            "php",
-            "route",
-            "router"
-        ]
-    },
-    {
-        "name": "techlab/smartwizard",
-        "version": "v4.4.1",
-        "version_normalized": "4.4.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/techlab/SmartWizard.git",
-            "reference": "a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/techlab/SmartWizard/zipball/a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf",
-            "reference": "a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf",
-            "shasum": ""
-        },
-        "require": {
-            "components/jquery": ">=3.3.1",
-            "twbs/bootstrap": ">=4.0.0"
-        },
-        "time": "2020-02-05T06:30:21+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Dipu Raj",
-                "email": "hello@techlaboratory.net",
-                "homepage": "http://dipuraj.me"
-            }
-        ],
-        "description": "The awesome jQuery step wizard plugin with Bootstrap support",
-        "homepage": "http://techlaboratory.net/smartwizard",
-        "keywords": [
-            "bootstrap",
-            "jquery",
-            "jquery-plugin",
-            "step",
-            "ui",
-            "wizard",
-            "wizard plugin"
-        ]
-    },
-    {
-        "name": "twbs/bootstrap",
-        "version": "v4.4.1",
-        "version_normalized": "4.4.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twbs/bootstrap.git",
-            "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
-            "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
-            "shasum": ""
-        },
-        "replace": {
-            "twitter/bootstrap": "self.version"
-        },
-        "time": "2019-11-28T12:59:49+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.3.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mark Otto",
-                "email": "markdotto@gmail.com"
+            "time": "2019-10-23T05:15:13+00:00",
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
             },
-            {
-                "name": "Jacob Thornton",
-                "email": "jacobthornton@gmail.com"
-            }
-        ],
-        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-        "homepage": "https://getbootstrap.com/",
-        "keywords": [
-            "JS",
-            "css",
-            "framework",
-            "front-end",
-            "mobile-first",
-            "responsive",
-            "sass",
-            "web"
-        ]
-    }
-]
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "install-path": "../components/jquery"
+        },
+        {
+            "name": "curl/curl",
+            "version": "2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-mod/curl.git",
+                "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-mod/curl/zipball/d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
+                "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^5.6 | ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "~2.1"
+            },
+            "time": "2018-12-04T19:47:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Curl": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hassan Amouhzi",
+                    "email": "hassan@anezi.net",
+                    "homepage": "http://hassan.amouhzi.com"
+                },
+                {
+                    "name": "php-curl-class",
+                    "homepage": "https://github.com/php-curl-class"
+                },
+                {
+                    "name": "user52",
+                    "homepage": "https://github.com/user52"
+                }
+            ],
+            "description": "cURL class for PHP",
+            "homepage": "https://github.com/php-mod/curl",
+            "keywords": [
+                "curl",
+                "dot"
+            ],
+            "install-path": "../curl/curl"
+        },
+        {
+            "name": "izniburak/router",
+            "version": "v1.5.2",
+            "version_normalized": "1.5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/izniburak/php-router.git",
+                "reference": "534af6f77a05083760c5ff8385ca81218b5c5855"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/izniburak/php-router/zipball/534af6f77a05083760c5ff8385ca81218b5c5855",
+                "reference": "534af6f77a05083760c5ff8385ca81218b5c5855",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^5.3",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.0"
+            },
+            "time": "2020-01-29T21:28:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Buki\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "İzni Burak Demirtaş",
+                    "email": "info@burakdemirtas.org",
+                    "homepage": "http://burakdemirtas.org"
+                }
+            ],
+            "description": "simple router class for php",
+            "homepage": "https://github.com/izniburak/php-router",
+            "keywords": [
+                "Simple",
+                "php",
+                "route",
+                "router"
+            ],
+            "install-path": "../izniburak/router"
+        },
+        {
+            "name": "techlab/smartwizard",
+            "version": "v4.4.1",
+            "version_normalized": "4.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/techlab/SmartWizard.git",
+                "reference": "a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/techlab/SmartWizard/zipball/a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf",
+                "reference": "a6cd81805dc918a1ca1ed3c0bd64f6a4e66a1adf",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">=3.3.1",
+                "twbs/bootstrap": ">=4.0.0"
+            },
+            "time": "2020-02-05T06:30:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dipu Raj",
+                    "email": "hello@techlaboratory.net",
+                    "homepage": "http://dipuraj.me"
+                }
+            ],
+            "description": "The awesome jQuery step wizard plugin with Bootstrap support",
+            "homepage": "http://techlaboratory.net/smartwizard",
+            "keywords": [
+                "bootstrap",
+                "jquery",
+                "jquery-plugin",
+                "step",
+                "ui",
+                "wizard",
+                "wizard plugin"
+            ],
+            "install-path": "../techlab/smartwizard"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.0.0-beta3",
+            "version_normalized": "5.0.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "220139a89ffc3864bbb6e1b35471667318eadc1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/220139a89ffc3864bbb6e1b35471667318eadc1f",
+                "reference": "220139a89ffc3864bbb6e1b35471667318eadc1f",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "time": "2021-03-23T16:26:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.0.0-beta3"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../twbs/bootstrap"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

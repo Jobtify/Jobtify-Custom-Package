@@ -5,8 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo __NOMBRE__?></title>
 	<meta charset="utf-8">
-	<!-- Bootstrap core CSS -->
-  	<link href="<?php echo __PATH__ ?>/include/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Fontawesome -->
   	<link href="<?php echo __PATH__ ?>/include/fontawesome/css/all.css" rel="stylesheet">
   	<link rel="icon" type="image/png" href="<?php echo __FAVICON__ ?>">
   	<?php
@@ -16,7 +15,11 @@
   	?>
 
   	<!-- Template style css --> 
-  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+  	<?php
+  		include 'include/frameworks/'.$this->frameworks.'/link.php';
+  	?>
+  	<link href="<?php echo __PATH__ ?>/include/fontawesome/font-awesome.css" rel="stylesheet" type="text/css">
   	<link href="<?php echo __PATH__ ?>/vendor/techlab/smartwizard/dist/css/smart_wizard.css" rel="stylesheet" type="text/css" />
   	<link href="<?php echo __PATH__ ?>/vendor/techlab/smartwizard/dist/css/smart_wizard_theme_arrows.css" rel="stylesheet" type="text/css" />
   	<link href="<?php echo __PATH__ ?>/vendor/techlab/smartwizard/dist/css/smart_wizard_theme_dots.css" rel="stylesheet" type="text/css" />
@@ -63,17 +66,18 @@
 				</div>
 			</div>
 		</div>
-		<!-- Modal -->
+		<!-- Modal --> 
 		
-		<!-- Bootstrap core JavaScript -->
+		<!-- core JavaScript -->
+		<?php
+  			include 'include/frameworks/'.$this->frameworks.'/script.php';
+  		?>
 		<link href="<?php echo __PATH__ ?>/include/fontawesome/js/all.js" rel="stylesheet">
 		<script src="<?php echo __PATH__ ?>/include/js/jquery.slim.min.js"></script>
 		<script src="<?php echo __PATH__ ?>/include/js/popper.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="<?php echo __PATH__ ?>/include/js/bootstrap.bundle.min.js"></script>
-		<script src="<?php echo __PATH__ ?>/vendor/techlab/smartwizard/dist/js/jquery.smartWizard.min.js"></script>
-	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 		<script src="<?php echo __PATH__ ?>/include/js/jcp.js"></script>
+		<script src="<?php echo __PATH__ ?>/vendor/techlab/smartwizard/dist/js/jquery.smartWizard.min.js"></script>
 		<script src="<?php echo __PATH__ ?>/themes/<?php echo $this->theme ?>/js.js"></script>
 	</body>
 </html>
