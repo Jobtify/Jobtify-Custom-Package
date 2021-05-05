@@ -2,6 +2,7 @@
     "require": {
         "curl/curl": "^2.2",
         "izniburak/router": "^1.5",
-        "techlab/smartwizard": "^4.4"
+        "techlab/smartwizard": "^4.4",
+        "twbs/bootstrap": "5.0.0-beta3"
     }
 }

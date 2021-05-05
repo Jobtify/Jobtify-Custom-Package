@@ -30,11 +30,11 @@
 	/**
 	 * Define el token de acceo a la API (Obligatorio)
 	 */
-	define('__TOKEN__', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+	define('__TOKEN__', 'cd1fac90feef9b58fa749fe67bd26056773489b3');
 	/**
 	 * Define la clave de acceso a la API (Obligatorio)
 	 */
-	define('__KEY__', 'xxxxxxxxxxxxxxxxxxxxxxxxxxx');
+	define('__KEY__', 'pRitYG5nifDvc5yIQBI');
 	/**
 	 * Define el menú del sitio web (Opcional). Si el menú enlaza a una página nueva se deberá 
 	 * definir la página en el siguiente bloque.
@@ -66,6 +66,13 @@
 	 * Define el nombre de la plantilla a utiliar (Requerido)
 	 */
 	define('__TEMPLATE__', 'default');
+
+	/*
+	 * Define el framework que se va ha utilizar (Requerido) 
+	   Por Default viene predefinido con bootstrap4 pero se pueden utilizar los siguientes -> bootstrap5, foundation6, pure css, uikit.
+	*/
+	define('__FRAMEWORKS__', 'bootstrap4');
+
 	/**
 	 * Define las meta tags del sitio (Opcional)
 	 */
@@ -77,8 +84,4 @@
 				array("name" => "robots", "content"=>"index")
 			])
 		);
-
-	
-	
-
  ?>

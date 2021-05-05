@@ -23,6 +23,115 @@
     </div>
   </header>
 
+<h2>UIkit</h2>
+<div uk-grid>
+    <div>
+        <div uk-grid>
+            <div>Hola</div>
+            <div>Adios</div>
+        </div>
+    </div>
+    <div>
+        <div uk-grid>
+            <div>Hola</div>
+            <div>Adios bebe</div>
+        </div>
+    </div>
+</div>
+
+
+
+<h1>foundation6</h1>
+
+<ul class="tabs" data-responsive-accordion-tabs="tabs medium-accordion large-tabs" id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+  <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+  <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
+  <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
+  <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
+  <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1">
+    <p>one</p>
+    <p>Check me out! I'm a super cool Tab panel with text content!</p>
+  </div>
+  <div class="tabs-panel" id="panel2">
+    <p>two</p>
+    <img class="thumbnail" src="assets/img/generic/rectangle-7.jpg">
+  </div>
+  <div class="tabs-panel" id="panel3">
+    <p>three</p>
+    <p>Check me out! I'm a super cool Tab panel with text content!</p>
+  </div>
+  <div class="tabs-panel" id="panel4">
+    <p>four</p>
+    <img class="thumbnail" src="assets/img/generic/rectangle-2.jpg">
+  </div>
+  <div class="tabs-panel" id="panel5">
+    <p>five</p>
+    <p>Check me out! I'm a super cool Tab panel with text content!</p>
+  </div>
+  <div class="tabs-panel" id="panel6">
+    <p>six</p>
+    <img class="thumbnail" src="assets/img/generic/rectangle-8.jpg">
+  </div>
+</div>
+
+
+
+<h1>Pure Css</h1>
+<div>
+    <style scoped="">
+        .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65);
+            /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60);
+            /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20);
+            /* this is an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221);
+            /* this is a light blue */
+        }
+    </style>
+    <button class="button-success pure-button">Success Button</button>
+    <button class="button-error pure-button">Error Button</button>
+    <button class="button-warning pure-button">Warning Button</button>
+    <button class="button-secondary pure-button">Secondary Button</button>
+</div>
+
+<form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <label for="default-remember">
+            <input type="checkbox" id="default-remember" /> Remember me</label>
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+</form>
+
+
+
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
     <div class="container">
